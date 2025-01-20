@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.zjun</groupId>
+        <artifactId>cloudnotes</artifactId>
+        <version>${revision}</version>
+    </parent>
+
+    <groupId>com.zjun</groupId>
+    <artifactId>zjun-framework</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+
+    <name>zjun-framework</name>
+    <description>平台基础设施层：封装一些常用功能，供各个业务线拿来即用</description>
+
+    <!-- 多模块项目需要配置打包方式为 pom -->
+    <packaging>pom</packaging>
+
+</project>
